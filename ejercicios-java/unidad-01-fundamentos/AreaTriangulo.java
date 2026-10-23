@@ -1,26 +1,19 @@
+void main() {
 
-import java.util.Scanner;
+    println("=== AREA DE UN TRIANGULO ===");
 
-public class AreaTriangulo {
-    public static void main(String[] args) {
+    double base = Double.parseDouble(
+        readln("Ingrese la base: ")
+    );
 
-        try (Scanner entrada = new Scanner(System.in)) {
-            System.out.println("=== AREA DE UN TRIANGULO ===");
+    double altura = Double.parseDouble(
+        readln("Ingrese la altura: ")
+    );
 
-            System.out.print("Ingrese la base: ");
-            double base = entrada.nextDouble();
-
-            System.out.print("Ingrese la altura: ");
-            double altura = entrada.nextDouble();
-
-            if (base > 0 && altura > 0) {
-                double area = (base * altura) / 2;
-                System.out.printf("Area: %.2f%n", area);
-            } else {
-                System.out.println(
-                    "Error: los valores deben ser positivos."
-                );
-            }
-        }
+    if (base > 0 && altura > 0) {
+        double area = (base * altura) / 2;
+        println("Area: %.2f".formatted(area));
+    } else {
+        println("Error: los valores deben ser positivos.");
     }
 }
