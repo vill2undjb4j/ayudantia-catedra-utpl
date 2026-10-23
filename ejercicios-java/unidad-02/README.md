@@ -121,3 +121,35 @@ Salida:
 **Características de Java 25:** Uso de `void main()`, `IO.readln()`, `IO.println()` y `.formatted()`.
 
 **Conceptos aplicados:** Variables de tipo `double`, operaciones aritméticas, entrada y salida de datos, validación de valores y estructuras condicionales `if`, `else if` y `else`.
+
+## Ejercicio 5: Cálculo de edad
+
+**Archivo:** `CalcularEdad.java`
+
+**Objetivo:** Desarrollar un programa en Java 25 que permita calcular la edad aproximada de una persona a partir de su año de nacimiento.
+
+**Descripción:** El programa solicita al usuario su año de nacimiento y el año actual. Posteriormente, realiza una resta para calcular la edad aproximada y muestra el resultado en pantalla.
+
+**Fórmula utilizada:**
+
+Edad aproximada = Año actual - Año de nacimiento
+
+**Condiciones:**
+- Si el año de nacimiento es menor o igual a cero, muestra un mensaje de error.
+- Si el año de nacimiento es mayor que el año actual, muestra un mensaje de error.
+- Si los datos son válidos, calcula y muestra la edad aproximada.
+
+**Ejemplo de ejecución:**
+
+Entrada:
+- Año de nacimiento: 2004
+- Año actual: 2026
+
+Salida:
+- Su edad aproximada es: 22 años.
+
+**Nota:** El cálculo no considera el día ni el mes de nacimiento, por lo que la edad real podría ser un año menor.
+
+**Características de Java 25:** Uso de `void main()`, `IO.readln()` e `IO.println()`.
+
+**Conceptos aplicados:** Variables enteras, operaciones aritméticas, entrada y salida de datos, validación y estructuras condicionales `if` y `else`.
