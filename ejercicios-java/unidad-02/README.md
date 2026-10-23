@@ -27,8 +27,6 @@ la ayudantía de cátedra.
 - Resultado x1: 3.0000
 - Resultado x2: 2.0000
 
-**Características de Java 25:** Uso de `void main()`, `IO.readln()` e `IO.println()`.
-
 **Conceptos aplicados:** Variables, operaciones matemáticas, entrada y salida de datos, estructuras condicionales y uso de `Math.sqrt()`.
 
 ## Ejercicio 2: Cálculo del baricentro
@@ -54,8 +52,6 @@ la ayudantía de cátedra.
 
 - Baricentro X: 3.00
 - Baricentro Y: 3.00
-
-**Características de Java 25:** Uso de `void main()`, `IO.readln()` e `IO.println()`.
 
 **Conceptos aplicados:** Variables de tipo `double`, operaciones aritméticas, entrada de datos y secuenciación de instrucciones.
 
@@ -84,8 +80,6 @@ Entrada:
 
 Salida:
 `Viernes`
-
-**Características de Java 25:** Uso de `void main()`, `IO.readln()`, `IO.println()` y la sintaxis moderna de `switch` con flechas (`->`).
 
 **Conceptos aplicados:** Variables enteras, entrada y salida de datos, estructuras de selección múltiple y validación de rangos.
 
@@ -118,8 +112,6 @@ Salida:
 - IMC: 22.86
 - Clasificación: Peso normal
 
-**Características de Java 25:** Uso de `void main()`, `IO.readln()`, `IO.println()` y `.formatted()`.
-
 **Conceptos aplicados:** Variables de tipo `double`, operaciones aritméticas, entrada y salida de datos, validación de valores y estructuras condicionales `if`, `else if` y `else`.
 
 ## Ejercicio 5: Cálculo de edad
@@ -149,7 +141,5 @@ Salida:
 - Su edad aproximada es: 22 años.
 
 **Nota:** El cálculo no considera el día ni el mes de nacimiento, por lo que la edad real podría ser un año menor.
-
-**Características de Java 25:** Uso de `void main()`, `IO.readln()` e `IO.println()`.
 
 **Conceptos aplicados:** Variables enteras, operaciones aritméticas, entrada y salida de datos, validación y estructuras condicionales `if` y `else`.
