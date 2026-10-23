@@ -30,3 +30,31 @@ la ayudantía de cátedra.
 **Características de Java 25:** Uso de `void main()`, `IO.readln()` e `IO.println()`.
 
 **Conceptos aplicados:** Variables, operaciones matemáticas, entrada y salida de datos, estructuras condicionales y uso de `Math.sqrt()`.
+
+## Ejercicio 2: Cálculo del baricentro
+
+**Archivo:** `Baricentro.java`
+
+**Objetivo:** Desarrollar un programa en Java 25 que permita calcular las coordenadas del baricentro de un triángulo.
+
+**Descripción:** El programa solicita las coordenadas de los tres vértices de un triángulo y calcula su baricentro mediante el promedio de las coordenadas.
+
+**Fórmulas utilizadas:**
+
+- Baricentro X = (x1 + x2 + x3) / 3
+- Baricentro Y = (y1 + y2 + y3) / 3
+
+**Ejemplo de ejecución:**
+
+- Vértice 1: (0, 0)
+- Vértice 2: (6, 0)
+- Vértice 3: (3, 9)
+
+**Resultados:**
+
+- Baricentro X: 3.00
+- Baricentro Y: 3.00
+
+**Características de Java 25:** Uso de `void main()`, `IO.readln()` e `IO.println()`.
+
+**Conceptos aplicados:** Variables de tipo `double`, operaciones aritméticas, entrada de datos y secuenciación de instrucciones.
