@@ -83,5 +83,28 @@ Aprobado: true
 
 **Conceptos aplicados:** Tipos de datos numéricos, operaciones aritméticas y presentación de resultados en consola.
 
+## Ejercicio 4: Clasificación de notas
+
+**Archivo:** `ClasificacionNotas.java`
+
+**Objetivo:** Aplicar estructuras condicionales para determinar si un estudiante aprueba o reprueba según su calificación.
+
+**Descripción:** El programa solicita una nota entre 0 y 10 y la clasifica mediante las condiciones `if`, `else if` y `else`.
+
+**Criterios de clasificación:**
+- Nota de 9 a 10: Excelente - Aprobado.
+- Nota de 7 a menos de 9: Bueno - Aprobado.
+- Nota de 0 a menos de 7: Reprobado.
+- Nota fuera del rango de 0 a 10: Error.
+
+**Ejemplo de ejecución:**
+
+- Nota ingresada: 8
+- Resultado: Bueno - Aprobado.
+
+**Características de Java 25 utilizadas:** Método `void main()` simplificado y métodos `IO.readln()` e `IO.println()`.
+
+**Conceptos aplicados:** Variables, tipos de datos, entrada de información, operadores relacionales, operadores lógicos y estructuras condicionales.
+
 
 
