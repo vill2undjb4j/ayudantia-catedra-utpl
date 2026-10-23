@@ -88,3 +88,36 @@ Salida:
 **Características de Java 25:** Uso de `void main()`, `IO.readln()`, `IO.println()` y la sintaxis moderna de `switch` con flechas (`->`).
 
 **Conceptos aplicados:** Variables enteras, entrada y salida de datos, estructuras de selección múltiple y validación de rangos.
+
+## Ejercicio 4: Índice de Masa Corporal (IMC)
+
+**Archivo:** `IndiceMasaCorporal.java`
+
+**Objetivo:** Desarrollar un programa en Java 25 que permita calcular el índice de masa corporal de una persona a partir de su peso y altura.
+
+**Descripción:** El programa solicita el peso en kilogramos y la altura en metros. Posteriormente, calcula el IMC y muestra una clasificación según el resultado obtenido.
+
+**Fórmula utilizada:**
+
+IMC = Peso / (Altura × Altura)
+
+**Condiciones:**
+- Si el peso o la altura son menores o iguales a cero, muestra un mensaje de error.
+- Si el IMC es menor que 18.5, muestra "Bajo peso".
+- Si el IMC está entre 18.5 y menos de 25, muestra "Peso normal".
+- Si el IMC está entre 25 y menos de 30, muestra "Sobrepeso".
+- Si el IMC es 30 o superior, muestra "Obesidad".
+
+**Ejemplo de ejecución:**
+
+Entrada:
+- Peso: 70 kg
+- Altura: 1.75 m
+
+Salida:
+- IMC: 22.86
+- Clasificación: Peso normal
+
+**Características de Java 25:** Uso de `void main()`, `IO.readln()`, `IO.println()` y `.formatted()`.
+
+**Conceptos aplicados:** Variables de tipo `double`, operaciones aritméticas, entrada y salida de datos, validación de valores y estructuras condicionales `if`, `else if` y `else`.
