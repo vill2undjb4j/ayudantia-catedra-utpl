@@ -99,7 +99,7 @@ Salida:
 
 **Fórmula utilizada:**
 
-IMC = Peso / (Altura × Altura)
+<img width="226" height="80" alt="image" src="https://github.com/user-attachments/assets/4911e518-35df-4346-ab3b-88418208ecce" />
 
 **Condiciones:**
 - Si el peso o la altura son menores o iguales a cero, muestra un mensaje de error.
