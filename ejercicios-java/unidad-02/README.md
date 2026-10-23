@@ -58,3 +58,33 @@ la ayudantía de cátedra.
 **Características de Java 25:** Uso de `void main()`, `IO.readln()` e `IO.println()`.
 
 **Conceptos aplicados:** Variables de tipo `double`, operaciones aritméticas, entrada de datos y secuenciación de instrucciones.
+
+## Ejercicio 3: Día de la semana
+
+**Archivo:** `DiaSemana.java`
+
+**Objetivo:** Desarrollar un programa en Java 25 que permita identificar el día de la semana a partir de un número ingresado por el usuario.
+
+**Descripción:** El programa solicita un número entero del 1 al 7 y, mediante una estructura de selección `switch`, determina el día de la semana correspondiente.
+
+**Condiciones:**
+- Si el usuario ingresa 1, muestra Lunes.
+- Si ingresa 2, muestra Martes.
+- Si ingresa 3, muestra Miércoles.
+- Si ingresa 4, muestra Jueves.
+- Si ingresa 5, muestra Viernes.
+- Si ingresa 6, muestra Sábado.
+- Si ingresa 7, muestra Domingo.
+- Si ingresa un número fuera del rango, muestra un mensaje de error.
+
+**Ejemplo de ejecución:**
+
+Entrada:
+`Ingrese un numero del 1 al 7: 5`
+
+Salida:
+`Viernes`
+
+**Características de Java 25:** Uso de `void main()`, `IO.readln()`, `IO.println()` y la sintaxis moderna de `switch` con flechas (`->`).
+
+**Conceptos aplicados:** Variables enteras, entrada y salida de datos, estructuras de selección múltiple y validación de rangos.
