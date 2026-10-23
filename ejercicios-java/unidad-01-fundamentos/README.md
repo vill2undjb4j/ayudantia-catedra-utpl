@@ -54,3 +54,34 @@ Edad: 20
 Promedio: 9.5
 Paralelo: A
 Aprobado: true
+
+## Ejercicio 2: Área de un triángulo
+
+**Archivo:** `AreaTriangulo.java`
+
+**Objetivo:** Desarrollar un programa que permita calcular el área de un triángulo mediante el ingreso de su base y altura.
+
+**Descripción:** El programa solicita al usuario dos valores numéricos y aplica la fórmula:
+
+Área = (base × altura) / 2
+
+**Ejemplo de ejecución:**
+
+- Base: 2
+- Altura: 5
+- Resultado: 5,00
+
+**Conceptos aplicados:** Variables, operaciones aritméticas, entrada de datos y salida por consola.
+
+## Ejercicio 3: Consumo de agua
+
+**Archivo:** `ConsumoAgua.java`
+
+**Objetivo:** Practicar el uso de variables y operaciones matemáticas para calcular el consumo de agua en diferentes períodos.
+
+**Descripción:** El programa realiza cálculos para obtener el consumo diario, mensual y anual de agua.
+
+**Conceptos aplicados:** Tipos de datos numéricos, operaciones aritméticas y presentación de resultados en consola.
+
+
+
